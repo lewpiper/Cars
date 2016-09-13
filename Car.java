@@ -1,14 +1,15 @@
 
 /**
- * Write a description of class Car here.
+ * Calculates changes in range based on car object and mpg from CarTester class. 
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Lew Piper
+ * @version 9/18/2016
  */
 public class Car
 {
-    // instance variables - replace the example below with your own
-    private int x;
+    // Instance Variables
+    private int milesPerGallon = 0;
+    private int gallonsInTank = 0;
 
     /**
      * Constructor for objects of class Car
@@ -19,12 +20,6 @@ public class Car
         x = 0;
     }
 
-    /**
-     * An example of a method - replace this comment with your own
-     * 
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y 
-     */
     public int sampleMethod(int y)
     {
         // put your code here
