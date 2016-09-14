@@ -7,22 +7,34 @@
  */
 public class Car
 {
-    // Instance Variables
-    private int milesPerGallon = 0;
-    private int gallonsInTank = 0;
+    //Instance Variables
+    private double milesPerGallon = 0;
+    private double gallonsInTank = 0;
 
-    /**
-     * Constructor for objects of class Car
-     */
-    public Car()
+    /* Copy the contents of the miles per gallon passed in based on the newly created 
+    car object from the CarTester.java file. Also initalize the number of gallons in
+    the tank for any new car object created
+    */
+    public Car(double milesPerGallon)
     {
-        // initialise instance variables
-        x = 0;
+        this.milesPerGallon = milesPerGallon;
+        gallonsInTank = 3.5;
     }
 
-    public int sampleMethod(int y)
+    public int addGas()
     {
         // put your code here
-        return x + y;
+        return gallonsInTank;
+    }
+    
+    public int drive()
+    {
+        // put your code here
+        return gallonsInTank;
+    }
+    
+    public void range()
+    {
+        // put your code here
     }
 }
