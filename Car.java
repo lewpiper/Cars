@@ -20,21 +20,22 @@ public class Car
         this.milesPerGallon = milesPerGallon;
         gallonsInTank = 3.5;
     }
-
-    public int addGas()
+    
+    //Adds gas to keep the gallons in tank variable updated correctly from the gas amount passed in
+    public void addGas(double gasAmount)
     {
-        // put your code here
-        return gallonsInTank;
+        gallonsInTank += gasAmount;
     }
     
-    public int drive()
+    //Removes gas from the tank based on the MPG and miles driven passed in from the tester class
+    public void drive(double milesDriven)
     {
-        // put your code here
-        return gallonsInTank;
+        gallonsInTank -= (milesDriven/milesPerGallon);
     }
     
-    public void range()
+    //Calculates the remaining range at any point by multiplying the gallons left by the MPG
+    public double range()
     {
-        // put your code here
+        return gallonsInTank*milesPerGallon;
     }
 }

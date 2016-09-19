@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=milesPerGallon
+comment0.target=Car(double)
+comment0.text=\ Copy\ the\ contents\ of\ the\ miles\ per\ gallon\ passed\ in\ based\ on\ the\ newly\ created\ \n\ \ \ \ car\ object\ from\ the\ CarTester.java\ file.\ Also\ initalize\ the\ number\ of\ gallons\ in\n\ \ \ \ the\ tank\ for\ any\ new\ car\ object\ created\n
+comment1.params=gasAmount
+comment1.target=void\ addGas(double)
+comment2.params=milesDriven
+comment2.target=void\ drive(double)
+comment3.params=
+comment3.target=double\ range()
+numComments=4
